@@ -10,11 +10,11 @@ const TodoSchema = new Schema({
         type: String,
         required: true
     },
-    author: {
-        type: Schema.Types.ObjectId,
-        ref: 'Author',
-        required: true
-    },
+    // author: {
+    //     type: Schema.Types.ObjectId,
+    //     ref: 'Author',
+    //     required: true
+    // },
     status: {
         type: String,
         required: true

@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const Todo = require('./models/todo')
-const Author = require('./models/author')
+// const Author = require('./models/author')
 
 // Crud operations for todos
 
@@ -69,3 +69,6 @@ router.delete('/todos/:id', async (req, res) => {
 
 // Crud operations for author
 
+
+
+module.exports = router
