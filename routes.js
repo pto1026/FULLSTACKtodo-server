@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const Todo = require('./models/todo')
+const Author = require('./models/author')
 
 // Crud operations for todos
 
@@ -65,3 +66,6 @@ router.delete('/todos/:id', async (req, res) => {
         res.status(404).send({ error: "Todo does not exist." })
     }
 })
+
+// Crud operations for author
+

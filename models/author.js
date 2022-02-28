@@ -17,7 +17,7 @@ const AuthorSchema = new Schema({
         type: String,
         required: true,
         maxLength: 100
-    }
+    },
 })
 
 module.exports = mongoose.model('Author', AuthorSchema)
